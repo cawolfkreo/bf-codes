@@ -49,7 +49,7 @@ Contents:  160 48  48  10  10
 Pointer :               ^
 
 
->>+++++ +++++ +++             This will add 23 to cell No: 5
+>>+++++ +++++ +++             This will add 13 to cell No: 5
 
 <                             This will move the pointer to Cell No: 4
 
