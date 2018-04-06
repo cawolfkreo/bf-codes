@@ -17,8 +17,8 @@ This is a list of the programs/files inside of this repo. If you don't see a fil
 * **Counter block view:** This program will print the numbers from 0 to 99. It prints a line for every 10 numbers. The result is a "_block_" or matrix of 10X10 with all the numbers.
 * **Counter:** This is essentially the same program as **counter block view**, but it doesn't print in the block way, it keeps printing the same characters in the same line, so you get "00 01 02 ... 99" when you run it.
 * **Memory-full-of-0:** This is a program that will continously make the next byte of memory a "0". **disclaimer:** I haven't tried to compile and run this program, only checking it on interpreters and stoping it's execution after a few moments. I suppose it's not a good idea if to try to run this program after you compile it to assembly. Be careful.
-* **greaterThan:** I wanted to make an implementation of ">" on Brainfuck, this program does that.
-* **negation:** This is an implementation of `!`( `NOT`, `~` or the negation sign you use in your favorite language). it won't strictly negate `1` and `0`. Instead anything that's no `0` will become that, and `0` will obviusly become 1.
+* **GreaterThan:** I wanted to make an implementation of ">" on Brainfuck, this program does that.
+* **Negation:** This is an implementation of `!`( `NOT`, `~` or the negation sign you use in your favorite language). it won't strictly negate `1` and `0`. Instead anything that's no `0` will become that, and `0` will obviusly become 1.
 
 ## Authors
 * [__Camilo Zambrano Votto__](https://github.com/cawolfkreo)
