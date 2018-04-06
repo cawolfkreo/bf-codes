@@ -16,4 +16,4 @@
 ]
 
 
-this is still un finished, my head hurts :C
+this is still un finished and my head hurts :C
