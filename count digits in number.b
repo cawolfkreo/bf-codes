@@ -34,19 +34,24 @@ The result of this is:
 Cell No :   0   1   2   3
 Contents:   65  97  48  0
 Pointer :           ^
->>
-+++++ +++++ +++
-Cell No :   0   1   2   3   4
-Contents:   65  97  48  0   13
-Pointer :                   ^
+>>+
 [
-    >,
+    <+++++ +++++ +++
+    >,.
     [
          -
          <-
          >
     ]
-    <
+    -<
     [
+        >+>+
+        <<
+        [-]
     ]
+    >+
 ]
+The result of this is:
+Cell No :   0   1   2   3   4   5
+Contents:   65  97  48  0   0   x
+Pointer :                   ^
