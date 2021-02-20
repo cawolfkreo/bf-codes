@@ -5,10 +5,10 @@ then have your data in this way:
   Pointer:        ^
 if you do it correctly then after the execusion the memory will look like this:
   Cell No:  ...    n    n+1  n+2  n+3  n+4
-  contents: ...   1/0    0    A    B    0
+  contents: ...   1/0    0    0    0    0
   pointer:         ^
 This means that you will be pointing at the Cell you were before you executed this code and the answer will also be there
-as a 1 or a 0. as you can see this program requires 5 Cells to use and does not clean them. If you use it do it carefully!
+as a 1 or a 0. as you can see this program requires 5 Cells to use and does cleans them.
 ]
 
 [
@@ -49,7 +49,7 @@ notice that we dont have A and B but (A plus 1) and (B plus 1) instead
 
 [
   -                                        In every iteration substracts 1 to Cell No: n2
-  >-                                       then move and substracts 1 to Cell No: n3
+  >-                                       then moves right and substracts 1 to Cell No: n3
   [>]                                      if Cell No: n3 is greater than 1 (or is not 0) move right
   <<                                       here we move back to Cell No: n1 or Cell No: n2
 ]
@@ -64,7 +64,7 @@ places the pointer could be
 
 <                                          Moves to Cell No: n or Cell No: n1
 [+>]                                       if the pointer is in Cell No: n 
-                                           then adds 1 to it and points moves to Cell No: n1
+                                           then adds 1 to it and pointer moves to Cell No: n1
 
 >[-]                                       Moves to Cell No: n2 and makes it value 0
 >[-]                                       Moves to Cell No: n3 and makes it value 0
