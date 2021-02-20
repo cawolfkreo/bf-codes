@@ -8,8 +8,10 @@ Sometimes I use my free time to make small programs in this esolang, I suppose s
 All of the `.b` files here have a small description of the code, the code with documentation and at the end you will find the minified version if you want to copy them on your programs without all the blank spaces or end of lines. If you want to just try them I suggest using an interpreter for Brainfuck or if you wish look for a compiler that can run them.
 ### Interpreters
 Here is a list of online interpreters that I use to make my bf programs:
-1. The website [doleczek](http://www.bf.doleczek.pl/) has example programs other people made, tabs to have different Brainfuck open at once and an interpreter that can show you the memory in Hex base. This is the interpreter I mostly use when I make new programs.
-2. The site [Tio](https://tio.run/#brainfuck) "_try it online_" has different interpreters for a lot of languages, an input to write what your program will recive and other options. For brainfuck the most useful thing you can find here is the window to show how much your program took to run.
+1. The website [doleczek](http://www.bf.doleczek.pl/) has example programs other people have made, tabs to different Brainfuck editors to open at the same time and an interpreter that can show you the memory in Hex base. This is the interpreter I mostly use when I make new programs.
+2. The website [brainfuck-visualizer](https://fatiherikli.github.io/brainfuck-visualizer/) has a nice visualization of the "tape" of memory as well as controls for you to run faster/slower your code. The interpreter can also optimize the execution a bit if you
+want to. The only downsize is that the memory is not infinite, you only have 27 cells (bytes) of memory.
+3. The website [Tio](https://tio.run/#brainfuck) "_try it online_" has different interpreters for a lot of languages, an input to write what your program will recive and other options. For brainfuck the most useful thing you can find here is the window to show how much your program took to run.
 
 ## List of programs inside
 This is a list of the programs/files inside of this repo. If you don't see a file here it means I'm still working on it or you shouldn't trust that the contents of the file even works.
