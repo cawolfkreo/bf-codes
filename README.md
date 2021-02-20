@@ -14,6 +14,8 @@ Here is a list of online interpreters that I use to make my bf programs:
 ## List of programs inside
 This is a list of the programs/files inside of this repo. If you don't see a file here it means I'm still working on it or you shouldn't trust that the contents of the file even works.
 
+* **count digits in number:** This program will ask for a number (with less than 9 digits) and once it receives the input it will print the number of digits the number has. I highly recommend you use [bf.doleczek.pl](https://bf.doleczek.pl) as the interpreter for this since it expects input from the user similar to an interactive CLI program.
+
 * **Counter block view:** This program will print the numbers from 0 to 99. It prints a line for every 10 numbers. The result is a "_block_" or matrix of 10X10 with all the numbers.
 * **Counter:** This is essentially the same program as **counter block view**, but it doesn't print in the block way, it keeps printing the same characters in the same line, so you get "00 01 02 ... 99" when you run it.
 * **Memory-full-of-0:** This is a program that will continously make the next byte of memory a "0". **disclaimer:** I haven't tried to compile and run this program, only checking it on interpreters and stoping it's execution after a few moments. I suppose it's not a good idea if to try to run this program after you compile it to assembly. Be careful.
