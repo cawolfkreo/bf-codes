@@ -16,7 +16,7 @@ want to. The only downsize is that the memory is not infinite, you only have 27 
 ## List of programs inside
 This is a list of the programs/files inside of this repo. If you don't see a file here it means I'm still working on it or you shouldn't trust that the contents of the file even works.
 
-* **count digits in number:** This program will ask for a number (with less than 9 digits) and once it receives the input it will print the number of digits the number has. I highly recommend you use [bf.doleczek.pl](https://bf.doleczek.pl) as the interpreter for this since it expects input from the user similar to an interactive CLI program.
+* **count digits in number:** This program will ask for a number (with less than 10 digits) and once it receives the input it will print the number of digits the number has. I highly recommend you use [bf.doleczek.pl](https://bf.doleczek.pl) as the interpreter for this since it expects input from the user similar to an interactive CLI program.
 * **Counter block view:** This program will print the numbers from 0 to 99. It prints a line for every 10 numbers. The result is a "_block_" or matrix of 10X10 with all the numbers.
 * **Counter:** This is essentially the same program as **counter block view**, but it doesn't print in the block way, it keeps printing the same characters in the same line, so you get "00 01 02 ... 99" when you run it.
 * **fixed array demo**: This is a demo for an array of fixed lenght. It creates an array of size 6, adds some elements to it and then changes the value of the last element.
